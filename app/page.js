@@ -1,4 +1,14 @@
 import Image from "next/image";
+import TimestampComponent from "@/components/TimestampComponent";
+
+export default function Home() {
+  return (
+    <main>
+      <h1>Welcome to Votique</h1>
+      <TimestampComponent />
+    </main>
+  );
+}
 
 export default function Home() {
   return (
